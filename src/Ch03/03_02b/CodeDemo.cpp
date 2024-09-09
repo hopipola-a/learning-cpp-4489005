@@ -28,6 +28,12 @@ class cow{
     cow_purpose get_purpose() const{
         return purpose;
     };
+
+    void set_age(int age2)
+    {
+            age = age2;
+    }
+
   private:
     string name;
     int age;
