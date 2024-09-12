@@ -5,23 +5,22 @@
 #include <iostream>
 #include <cstdint>
 
-using namespace std;
-
-int main(){
-    
-    int farenhiet = 100;
-    int celcius;
-
-    celcius = ((float)5 / 9.0) * (farenhiet - 32);
-
-    cout<<"Farenhiet: "<<farenhiet<<endl;
-    cout<<"Celcius: "<<celcius<<endl<<endl;
-
-    float weight = 10.99;
-
-     cout<<"Float: "<<weight<<endl;
-    cout<<"Int: "<<(int)weight<<endl;
-    cout<<"fractional: "<< (int)((weight - (int) weight) * 10000)<<endl;
-
-    return (0);
-}
+using namespace std; 
+int main() 
+{ 
+    int num[5]; 
+    int* p; 
+    p = num; 
+    *p = 10; 
+    p++; 
+    *p = 20; 
+    p = &num[2]; 
+    *p = 30; 
+    p = num + 3; 
+    *p = 40; 
+    p = num; 
+    *(p + 4) = 50; 
+    for (int i = 0; i < 5; i++) 
+        cout << num[i] << ", "; 
+    return 0; 
+} 

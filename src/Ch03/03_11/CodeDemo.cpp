@@ -3,6 +3,7 @@
 // Create some classes, by Eduardo Corpeño 
 
 #include <iostream>
+#include <string>
 #include "records.h"
 
 int main(){

@@ -19,3 +19,4 @@ cow::cow(std::string name_i, int age_i, cow_purpose purpose_i){
     void cow::set_age(int new_age){
         age = new_age;
     }
+ 
