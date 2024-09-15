@@ -18,6 +18,7 @@ int main(){
     std::cin >> id;
 
     SR.report_card(id);
+    SR.get_GPA(id);
     
     std::cout << std::endl << std::endl;
     return (0);
@@ -38,4 +39,6 @@ void initialize(StudentRecords& srec){
     srec.add_grade(2, 1, 'A'); 
     srec.add_grade(2, 2, 'A');
     srec.add_grade(2, 4, 'B');
+
+    
 }
